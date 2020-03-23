@@ -1,0 +1,51 @@
+body{
+  background-color: salmon;
+}
+header{
+  color: black;
+  text-indent: 4mm;
+}
+.header__paragraph{
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 2mm;
+}
+.header__button{
+  color: blue;
+  padding: 5px 30px;
+	margin: 0 20px;
+  background: white;
+	cursor: pointer;
+}
+q[title]{
+  border-bottom: dashed 1px blue;
+  quotes: "«" "»";
+  background-color: white;
+  display: flex;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 7px;
+  }
+.header__title ~ q{
+  color: green;
+}
+.section{
+  background-color: lightblue;
+  box-shadow: 10px 10px 5px #888;
+  border: 1px solid blue;
+  border-radius: 25px;
+  width: 500px;
+  cursor: pointer;
+  text-align: center;
+}
+.section__paragraph + .section__paragraph_additional{
+  font-weight: bold;
+}
+.section > p{
+  color: blue;
+}
+.footer address{
+  color: green;
+  font-stretch: expanded;
+}
